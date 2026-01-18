@@ -1,4 +1,25 @@
 body{
-    width: 60%;
+    width: 55%;
     margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ------ General Styling ------ */
+.title-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.title-date h3{
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ------ Name and Contact Info ------ */
+h1{
+    text-align: center;
 }
