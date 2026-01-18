@@ -1,6 +1,6 @@
 body{
     width: 55%;
-    margin: 0 auto;
+    margin: 2rem auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -19,7 +19,6 @@ a{
     text-decoration: none;
 }
 
-/* ------ Name and Contact Info ------ */
-h1{
-    text-align: center;
+img{
+    max-width: 15%;
 }
