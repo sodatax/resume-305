@@ -1,14 +1,33 @@
+/* ------ Colors ------ */
+:root{
+    --background-color: #EDEDCE;
+    --background-color-2: #296374;
+}
+
 body{
+    background-color: var(--background-color);
     width: 55%;
-    margin: 2rem auto;
+    margin: 0 auto 2rem auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* ------ General Styling ------ */
 .title-date{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: baseline;
+}
+
+.my-info{
+    width:100%;
+    padding:0 1rem 1rem 1rem;
+    color: white;
+    background-color: var(--background-color-2);
+    border-radius: 0 0 .75rem .75rem;
+}
+
+main{
+    padding:0 1rem;
 }
 
 .title-date h3{
@@ -16,6 +35,7 @@ body{
 }
 
 a{
+    color:white;
     text-decoration: none;
 }
 
@@ -34,4 +54,16 @@ h2{
 
 ul{
     margin-top: 0;
+}
+
+a:hover{
+    color:var(--background-color);
+}
+
+/* ------ Responsive Windows ------ */
+@media (max-width:750px){
+    body{
+        width: 85%;
+        font-size: 75%;
+    }
 }
